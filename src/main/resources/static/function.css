@@ -1,0 +1,40 @@
+body{
+    margin: auto;
+    font-size: 14px;
+}
+body.header{
+    height:40px;width:100%;itext-align:center;
+    background-color: black;
+    text-align: center;color: white;
+}
+body.footer{
+    position:absolute;bottom:0;
+    height:40px;width:100%;text-align:center;
+    background-color: black;
+    text-align: center;color: white;
+}
+body.content{
+    height: 300px;width: 100%;
+    display: flex
+}
+body.content.managePanel{
+    flex:1;
+}
+body.content.formPanel{
+    flex:1;
+    background-color: gainsboro;
+}
+body.content.visualPanel{
+    flex:1;
+    background-color: gainsboro;
+}
+body.content.managePanel.projectPanel{
+    background-color: gainsboro;
+}
+body.content.managePanel.tablePanel{
+    background-color: gainsboro;
+}
+.stitle{
+    background-color: dimgrey;
+}
+
